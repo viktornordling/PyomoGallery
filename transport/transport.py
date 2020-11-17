@@ -11,7 +11,7 @@ model = ConcreteModel()
 #  Sets
 #       i   canning plants   / seattle, san-diego /
 #       j   markets          / new-york, chicago, topeka / ;
-model.i = Set(initialize=['seattle','san-diego'], doc='Canning plans')
+model.i = Set(initialize=['seattle','san-diego'], doc='Canning plants')
 model.j = Set(initialize=['new-york','chicago', 'topeka'], doc='Markets')
  
 ## Define parameters ##
